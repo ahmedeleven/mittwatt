@@ -47,7 +47,7 @@ To set up the project locally, follow these steps:
 2. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/[username]/mittwatt.git
+   git clone https://github.com/ahmedeleven/mittwatt.git
    cd mittwatt
    ```
 
@@ -157,8 +157,8 @@ This README file provides detailed steps for deploying a web application on AWS 
 
 1. Clone the project repository:
    ```bash
-   git clone -b [branch-name] https://[username]@[repository-url].git
-   cd [repository-name]
+   git clone https://github.com/ahmedeleven/mittwatt.git
+   cd mittwatt
    ```
 
 ### Configuring the Application
@@ -242,17 +242,17 @@ This README file provides detailed steps for deploying a web application on AWS 
 
 2. **Navigate to the `prisma` directory and run `main.py`:**
 
-    ```bash
-    cd ../prisma/
-    python3 main.py
-    ```
+   ```bash
+   cd ../prisma/
+   python3 main.py
+   ```
 
 3. **Navigate to the `ml_models` directory and run `ml_main.py`:**
 
-    ```bash
-    cd ../ml_models/
-    python3 ml_main.py
-    ```
+   ```bash
+   cd ../ml_models/
+   python3 ml_main.py
+   ```
 
 4. Start the development server:
    ```bash
