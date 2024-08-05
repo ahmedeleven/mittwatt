@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/MittWattTests/node_modules/
 /.pnp
 .pnp.js
 
@@ -43,3 +44,26 @@ yarn-error.log*
 
 #jetbrains
 /.idea/
+
+#database
+/prisma/scripts/__pycache__
+*.pyc
+/prisma/.cache.sqlite
+/prisma/script_v0.py
+/prisma/run.py
+/prisma/logs/database.log
+/prisma/source_data/electricity_archive.xlsx
+
+#Virtual Environment
+/venv
+/mittwatt
+/algorithm/original_electricity_price_model.h5
+/algorithm/KerasSequentialModel.ipynb
+/algorithm/DataAnalysisOnInitialDataset.ipynb
+/algorithm/model.py
+/algorithm/prediction.py
+/algorithm/nohup.out
+/algorithm/dataset
+
+# Model
+/ml_models/ml_model.log

@@ -1,6 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Geologica:wght@100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Geologica", sans-serif;
+  }
+}
 
 .loader {
   position: relative;
@@ -9,7 +16,7 @@
   border-radius: 50%;
   width: 48px;
   height: 48px;
-  color: #fff;
+  color: #000000;
 }
 .loader:before,
 .loader:after {
@@ -25,7 +32,7 @@
   animation: 1s spin linear infinite;
 }
 .loader:after {
-  color: #cc66ff;
+  color: #16a34a;
   transform: rotateY(70deg);
   animation-delay: 0.4s;
 }

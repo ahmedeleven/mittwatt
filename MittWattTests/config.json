@@ -1,0 +1,7 @@
+{
+"postmanEnvironmentFile": "./MittWatt_Env.postman_environment.json",
+"csvOutputFile": "./response_data.csv",
+"environmentVariableKey": "csvData"
+}
+
+
