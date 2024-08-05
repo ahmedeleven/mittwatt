@@ -120,10 +120,12 @@ async function ForecastDayResults(ctx: Context, year: number, month: number, day
   
     // Optional chaining for safety in average calculation
     for (const date in groupedByDate) {
-      if (groupedByDate[date]) {
-        groupedByDate[date].price = groupedByDate[date]?.sum / groupedByDate[date]?.count;
+      const item = groupedByDate[date];
+      if (item) {
+        item.price = (item.sum ?? 0) / (item.count ?? 1);
       }
     }
+    
   
     return Object.values(groupedByDate);
   }
